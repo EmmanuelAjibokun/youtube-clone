@@ -107,6 +107,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .video-time {
   background-color: black;
   color: white;
